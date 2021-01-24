@@ -1,0 +1,134 @@
+@import url("nav.css");
+@import url("maincontent.css");
+@import url("footer.css");
+
+/*homepage*/
+*{text-decoration:none;
+}
+
+main{
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+}
+
+header{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  background-color: #fff;
+  width:100%
+  height:40px;  
+
+}
+
+header .header-brand{
+font-family: Abel;
+font-size: 35px;
+font-weight:1200;
+color:#144703;
+text-transform: uppercase;
+display: block;
+margin: 0 auto;
+text-align:center;
+padding:10px 20px;
+}
+
+
+.index-banner{
+  width:100%;
+  height:calc(100vh - 90px);
+  background-image: url(../img/backgroundmobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:table;
+}
+
+.center-text{
+display: table-cell;
+vertical-align: middle;
+}
+
+.index-banner h2{
+
+font-family: Oswald;
+font-size:70px;
+color:#fff;
+text-align: center;
+text-shadow: 1px 1px 8px #111;
+}
+.index-banner h1{
+
+font-family: Roboto;
+font-size:60px;
+font-weight:900;
+color:#fff;
+text-align: center;
+text-shadow: 1px 1px 8px #111;
+}
+
+
+
+
+@media only screen and (min-width:1000px){
+
+  .index-banner{
+  width:100%;
+  height:700px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display:table;
+}
+
+ header .header-brand{
+ display:table-cell;
+ vertical-align: left;
+  margin:  31px ;
+  text-align:left;
+  line-height: 40px
+  padding:20px 30px 30px 60px;
+  float: left;
+  height:40px;
+}
+.index-banner h1{
+
+font-family: Libre+Franklin;
+font-size:40px;
+font-style: italic;
+line-height: 0px;
+color:#fff;
+text-align: left;
+padding: 50px 50px;
+text-shadow: 1px 1px 8px #111;
+}
+
+
+.index-banner h2{
+
+font-family: Roboto;
+font-size:100px;
+font-weight:1000;
+color:#fff;
+text-align: left;
+padding-top:  20px ;
+padding-left: 70px;
+text-shadow: 1px 1px 8px #111;
+}
+
+
+.home-box{
+wrapper
+font-family: Roboto;
+font-size:20px;
+color:#fff;
+text-align: right;
+line-height: 10px;
+padding-right: 40px;
+padding-bottom: 20px;
+text-shadow: 1px 1px 8px #111;
+}
+}
